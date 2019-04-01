@@ -1,7 +1,7 @@
 #SingleInstance,Force
 global wb,Main,IE,Snake
 SetBatchLines,-1
-Gui,+hwndMain
+Gui,+hwndMain -DPIScale
 Gui,Margin,0,0
 new Settings()
 Snake:=new SnakeClass(),Snake.Stop:=0
